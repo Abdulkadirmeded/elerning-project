@@ -26,7 +26,7 @@ export default function RootLayout({
         className={font.className}> 
         <Responsive />
         {children}
-        <ScrollToTOP />
+        {/* <ScrollToTOP /> */}
       </body>
     </html>
   );
